@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: medium;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            position: relative;
+        }
+        .stars {
+            width: 100vw;
+            height: 100vh;
+            background: black url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+        .content {
+            z-index: 1;
+        }
+        .signature {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            font-size: larger;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="content">
+        <p>This is the end of the journey. Thank you for visiting!</p>
+    </div>
+    <div class="signature">
+        <p>Best regards, [Your Name]</p>
+    </div>
+</body>
+</html>
