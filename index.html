@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: medium;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .stars {
+            width: 100vw;
+            height: 100vh;
+            background: black url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .content {
+            z-index: 1;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="content">
+        <p>This is the first page of our website. Enjoy the stars!</p>
+        <a href="page2.html">Next</a>
+    </div>
+</body>
+</html>
